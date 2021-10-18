@@ -1,0 +1,14 @@
+Dự án được xây dựng bằng Visual Studio.
+- Mình công khai source code này nhằm giúp các bạn sinh viên tham khảo phần auduino.
+- Phần audino này sẽ gửi dũ liệu lên 1 web service được xây dựng bằng (Cái gì cũng được :D )
+-- Thông tin package:
+-- Vui lòng tham khảo file SensorClient.cpp
+- Được cài đặt để sử dụng trên những linh kiện sau.
+-- Auduino Uno
+-- ESP8266wifi
+-- Cảm biến nhiệt độ. (SHTT)
+-- Cảm biến độ ẩm.
+-- Cảm biến bụi SOD.
+-- Cảm biến mưa.
+-- Màn hình LCD (2 dòng).
+-- Cảm biến độ PH của nước.

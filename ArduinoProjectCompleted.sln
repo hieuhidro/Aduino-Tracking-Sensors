@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SHT1x", "..\..\..\Documents\Arduino\libraries\SHT1x\SHT1x.vcxitems", "{58739356-BCB9-4A39-952E-1E012BD7B0D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewliquidCrystal", "..\..\..\Documents\Arduino\libraries\NewliquidCrystal\NewliquidCrystal.vcxitems", "{7287E88F-DED1-46A7-ABE1-D3115AA00BDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "I2cScanner", "I2cScanner\I2cScanner.vcxproj", "{A178ABEE-13A4-43CE-9A78-8F62908F60D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCDDisplay", "LCDDisplay\LCDDisplay.vcxproj", "{6276C1CC-50AF-46DB-A3E2-5B6FB3374A9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PpmMeter", "PpmMeter\PpmMeter.vcxproj", "{635C7166-D2BF-435E-8B18-C146F939385A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RFID", "RFID\RFID.vcxproj", "{0DF3872A-6C27-4CB0-9F17-CEADEFC86497}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Touch", "Touch\Touch.vcxproj", "{F45FC992-23A6-4E00-8A94-DABA7D80D8A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThread", "MultiThread\MultiThread.vcxproj", "{09554B18-CACF-4218-AA6E-0234BC4C2DF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{A178ABEE-13A4-43CE-9A78-8F62908F60D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{A178ABEE-13A4-43CE-9A78-8F62908F60D2}.Debug|x86.Build.0 = Debug|Win32
+		{A178ABEE-13A4-43CE-9A78-8F62908F60D2}.Release|x86.ActiveCfg = Release|Win32
+		{A178ABEE-13A4-43CE-9A78-8F62908F60D2}.Release|x86.Build.0 = Release|Win32
+		{6276C1CC-50AF-46DB-A3E2-5B6FB3374A9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{6276C1CC-50AF-46DB-A3E2-5B6FB3374A9A}.Debug|x86.Build.0 = Debug|Win32
+		{6276C1CC-50AF-46DB-A3E2-5B6FB3374A9A}.Release|x86.ActiveCfg = Release|Win32
+		{6276C1CC-50AF-46DB-A3E2-5B6FB3374A9A}.Release|x86.Build.0 = Release|Win32
+		{635C7166-D2BF-435E-8B18-C146F939385A}.Debug|x86.ActiveCfg = Debug|Win32
+		{635C7166-D2BF-435E-8B18-C146F939385A}.Debug|x86.Build.0 = Debug|Win32
+		{635C7166-D2BF-435E-8B18-C146F939385A}.Release|x86.ActiveCfg = Release|Win32
+		{635C7166-D2BF-435E-8B18-C146F939385A}.Release|x86.Build.0 = Release|Win32
+		{0DF3872A-6C27-4CB0-9F17-CEADEFC86497}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DF3872A-6C27-4CB0-9F17-CEADEFC86497}.Debug|x86.Build.0 = Debug|Win32
+		{0DF3872A-6C27-4CB0-9F17-CEADEFC86497}.Release|x86.ActiveCfg = Release|Win32
+		{0DF3872A-6C27-4CB0-9F17-CEADEFC86497}.Release|x86.Build.0 = Release|Win32
+		{F45FC992-23A6-4E00-8A94-DABA7D80D8A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{F45FC992-23A6-4E00-8A94-DABA7D80D8A5}.Debug|x86.Build.0 = Debug|Win32
+		{F45FC992-23A6-4E00-8A94-DABA7D80D8A5}.Release|x86.ActiveCfg = Release|Win32
+		{F45FC992-23A6-4E00-8A94-DABA7D80D8A5}.Release|x86.Build.0 = Release|Win32
+		{09554B18-CACF-4218-AA6E-0234BC4C2DF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{09554B18-CACF-4218-AA6E-0234BC4C2DF0}.Debug|x86.Build.0 = Debug|Win32
+		{09554B18-CACF-4218-AA6E-0234BC4C2DF0}.Release|x86.ActiveCfg = Release|Win32
+		{09554B18-CACF-4218-AA6E-0234BC4C2DF0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
